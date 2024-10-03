@@ -1,0 +1,42 @@
+api:
+  zp_key: ""
+  openai_key: ""
+  openai_base_url: ""
+  lanchain_api_key: ""
+
+model_path:
+  emb_model: "intfloat/multilingual-e5-large"
+  rerank_model: "cross-encoder/ms-marco-MiniLM-L-12-v2"
+  chatglm3-6b-8k: "THUDM/chatglm3-6b"
+  chatglm3-6b-32k: "THUDM/chatglm3-6b-32k"
+  longalign-7b-64k: "THUDM/LongAlign-7B-64k"
+  vicuna-v1.5-7b-16k: "lmsys/vicuna-7b-v1.5"
+  llama2-13b-chat-longlora: "Yukang/Llama-2-13b-chat-longlora-32k-sft"
+  qwen1.5-7b-chat-32k: "Qwen/Qwen-7B-Chat"
+  llama3-8b-instruct-8k: "meta-llama/Llama-3-8B-Instruct"
+  llama3-70b-8k: "meta-llama/Llama-3-70B-Instruct"
+  longrag-chatglm3-32k: ""
+  longrag-qwen1.5-32k: ""
+  longrag-vicuna-v1.5-16k: ""
+  longrag-llama3-8k: ""
+  longrag-llama2-4k: ""
+
+model_maxlen:
+  gpt-3.5-turbo-16k: 15000
+  gpt-3.5-turbo-0125: 15000
+  glm-4: 7000
+  chatglm3-6b-8k: 7000
+  chatglm3-6b-32k: 30000
+  longalign-7b-64k: 60000
+  vicuna-v1.5-7b-16k: 15000
+  llama2-13b-chat-longlora: 30000
+  qwen1.5-7b-chat-32k: 30000
+  llama3-8b-instruct-8k: 7000
+  longrag-chatglm3-32k: 30000
+  longrag-qwen1.5-32k: 30000
+  longrag-vicuna-v1.5-16k: 15000
+  longrag-llama3-8k: 7000
+  longrag-llama2-32k: 30000
+  llama3-70b-8k: 7000
+  longrag-llama2-4k: 3500
+  longrag-llama2-13b-4k: 3500

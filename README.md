@@ -1,6 +1,6 @@
-# LongRAG: A Dual-perspective Retrieval-Augmented Generation Paradigm for Long-Context Question Answering
+# [EMNLP2024] LongRAG: A Dual-perspective Retrieval-Augmented Generation Paradigm for Long-Context Question Answering
 
-**LongRAG** LongRAG is a general, dual-perspective, and robust LLM-based RAG system paradigm for LCQA to en-hance RAG’s understanding of complex long-context knowledge (i.e., global information and factual details)
+**LongRAG** is a general, dual-perspective, and robust LLM-based RAG system paradigm for LCQA to en-hance RAG’s understanding of complex long-context knowledge (i.e., global information and factual details)
 
 ![LongRAG](assets/overall.png)
 
@@ -119,3 +119,16 @@ Below are partial experimental results, showcasing the F1 scores on three multi-
 | LongRAG-GPT-3.5-Turbo w/o SFT| 56.17 | 51.37 | 32.83 | 46.79 |
 | LongRAG-GPT-3.5-Turbo-16k w/o SFT| 59.11 | 51.25 | 30.37 | 46.91 |
 | LongRAG-GLM-4 w/o SFT| 62.11 | 57.16 | 38.40 | 52.56 |
+
+## 📝 Citation
+
+If you find our work useful, please consider citing LongRAG:
+
+```
+@article{zhao2024longrag,
+  title={LongRAG: A Dual-Perspective Retrieval-Augmented Generation Paradigm for Long-Context Question Answering},
+  author={Qingfei Zhao and Ruobing Wang and Yukuo Cen and Daren Zha and Shicheng Tan and Yuxiao Dong and Jie Tang},
+  journal={arXiv preprint arXiv:2410.18050},
+  year={2024}
+}
+```

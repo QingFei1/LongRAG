@@ -89,7 +89,7 @@ if __name__ == "__main__":
 
             if all(task_counters[task][0] >= args.per_task_num for task in task_counters):
                 break
-        all_instructions.append(task_instructions)
+        all_instructions.extend(task_instructions)
     for bar in progress_bars.values():
        bar.close()
 
